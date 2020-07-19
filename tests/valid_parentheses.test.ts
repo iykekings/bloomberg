@@ -1,4 +1,4 @@
-import { isValid1 as isValidRegex, isValid2 as isValidStack } from '../src/valid_parentheses/valid_parentheses.ts';
+import { isValid1 as isValidRegex, isValid2 as isValidStack } from '../src/mod.ts';
 import { assert } from './mod.ts';
 
 Deno.test('Valid Parentheses with Regex', () => {
