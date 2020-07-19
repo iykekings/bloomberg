@@ -21,5 +21,5 @@ export function isValid2(s: string) {
       if (comp[Stack.pop() as Open] !== s[i]) return false;
     }
   }
-  return true;
+  return Stack.length === 0;
 }
