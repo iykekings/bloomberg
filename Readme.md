@@ -9,3 +9,7 @@ These are solutions to past bloomberg interview questions.
 - Test
 
   `deno test`
+
+- Todo
+
+  - benchmarking
